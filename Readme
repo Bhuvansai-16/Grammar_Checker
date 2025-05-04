@@ -31,11 +31,11 @@ Others: GitHub Actions (CI/CD)
 Backend Setup
 
 git clone https://github.com/Bhuvansai-16/Grammar_Checker.git
-cd grammar-checker/backend
+cd Grammar_Checker
 uvicorn main:app --reload for FastAPI
 
 Frontend Setup
-cd ../frontend
+cd Grammar_Checker/Project/src
 npm install
 npm run dev
 -------------------------------------------------------------------------------------------
