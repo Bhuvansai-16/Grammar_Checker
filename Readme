@@ -1,1 +1,84 @@
-Its a grammar checker
+📝 Grammar Checker
+An AI-powered grammar correction tool that detects and fixes grammatical errors in English text. This application provides users with a corrected version of their input text and optionally highlights the errors for easy comparison.
+
+🚀 Features
+✅ Detects grammatical mistakes in real-time
+
+✍️ Provides corrected text output
+
+🔴 Highlights incorrect grammar in the input (preview with errors)
+
+🟢 Offers side-by-side comparison with corrected text
+
+📄 Download corrected documents
+
+🌐 Browser extension support (optional)
+
+⚡ Built using Node.js/Express (or FastAPI), NLP libraries like spaCy, NLTK, or transformers
+
+
+-------------------------------------------------------------------------------------------
+🛠️ Tech Stack
+Frontend: React / Vite / Tailwind CSS
+
+Backend: Node.js (Express) / FastAPI
+
+NLP: spaCy, NLTK, or HuggingFace Transformers
+
+Others: GitHub Actions (CI/CD)
+-------------------------------------------------------------------------------------------
+📦 Installation
+Backend Setup
+
+git clone https://github.com/your-username/grammar-checker.git
+cd grammar-checker/backend
+uvicorn main:app --reload for FastAPI
+
+Frontend Setup
+cd ../frontend
+npm install
+npm run dev
+-------------------------------------------------------------------------------------------
+🔍 How It Works
+User enters or uploads text.
+
+Backend processes the text using NLP models to detect and correct grammar.
+
+The corrected text is returned to the frontend.
+
+Errors are highlighted and users can preview/download results.
+-------------------------------------------------------------------------------------------
+📁 Folder Structure
+
+grammar-checker/
+├── backend/
+│   ├── app.py or index.js
+│   └── models/
+├── frontend/
+│   ├── public/
+│   ├── src/
+├── README.md
+-------------------------------------------------------------------------------------------
+📋 To-Do
+
+ Basic grammar correction
+
+ Highlighting incorrect text
+
+ User authentication and saved history
+
+ Save pdf/word
+-------------------------------------------------------------------------------------------
+🧠 NLP Model Info
+Mention which model you're using (e.g., spaCy's en_core_web_sm, fine-tuned BERT, etc.) and how it was trained (if custom).
+-------------------------------------------------------------------------------------------
+📃 License
+MIT License
+-------------------------------------------------------------------------------------------
+🙌 Contributing
+Fork the project
+Create your branch (git checkout -b feature/xyz)
+Commit your changes (git commit -m 'Add xyz')
+Push to the branch (git push origin feature/xyz)
+Open a Pull Request
+
