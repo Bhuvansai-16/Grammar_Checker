@@ -30,7 +30,7 @@ Others: GitHub Actions (CI/CD)
 📦 Installation
 Backend Setup
 
-git clone https://github.com/your-username/grammar-checker.git
+git clone https://github.com/Bhuvansai-16/Grammar_Checker.git
 cd grammar-checker/backend
 uvicorn main:app --reload for FastAPI
 
